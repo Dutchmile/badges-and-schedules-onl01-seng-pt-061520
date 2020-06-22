@@ -26,7 +26,7 @@ end
 
 def printer(badges)
   badge_list = []
-  badges.each do |name|
+  batch_badge_creator.each do |name|
     badge_list.push(name)
   end
   puts badge_list
