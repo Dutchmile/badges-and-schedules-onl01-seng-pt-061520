@@ -28,6 +28,6 @@ end
 
 def printer(badges)
   badges.each do |badge|
-  puts "#{badge}"
+  puts badge
 end
 end
