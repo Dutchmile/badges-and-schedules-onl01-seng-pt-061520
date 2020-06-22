@@ -25,6 +25,7 @@ def assign_rooms(attendees)
 end
 
 def printer(badge_maker_creator)
-  badge_list = return.badge_maker_creator
+  badge_list = badge_maker_creator
   puts badge_list
 end
+
